@@ -12,7 +12,7 @@ api_key = False
 
 if api_key is False:
     api_key = 42
-    serviceurl = "http://py4e-data.dr-chuck.net/json?"
+    serviceurl = "http://py4e-data.dr-chuck.net/geojson?"
 else :
     serviceurl = "https://maps.googleapis.com/maps/api/geocode/json?"
 
